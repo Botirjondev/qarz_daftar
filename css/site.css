@@ -1,0 +1,252 @@
+*{margin: 0; padding: 0;}
+body
+{font-family: Georgia;
+user-select: none;}
+#sayt
+{width: 1000px;
+}
+#head
+{width: 960px;
+	height: 170px;
+	//background-color: red;
+padding: 0 20px;
+border-top: 5px solid #3bafbe;
+border-bottom: 1px solid #e2e2e2;
+	}
+#maxsus a
+{width: 32px;
+	height: 32px;
+	margin-left: 10px;
+	margin-top: 30px;
+	background-image: url("../img/tweet.png");
+	background-repeat: no-repeat;
+	float: left;
+	font-weight: 900;
+}
+#abir
+{margin-left: 0px!important;}
+#maxsus a:hover
+{	background-image: url("../img/htweet.png");
+	background-repeat: no-repeat;
+}
+#maxsus input[type="search"]
+{width: 220px;
+	height: 33px;
+	border-radius: 10px;
+margin-top: 30px;
+margin-left: 65px;
+background-color: #333333;
+color: #ffffff!important;
+border: none;
+text-indent: 15px;
+}
+.activee
+{	background-image: url("../img/htweet.png")!important;
+	background-repeat: no-repeat;
+}
+#maxsus input[type="submit"]
+{clear: both;
+	margin-top: 30px;
+	width: 80px;
+	height: 33px;
+	float: right;
+color: #ffffff;
+font-family: gerogia;
+	border-radius: 10px;
+background-color: #3bafbe;
+}
+#maxsus input[type="submit"]:hover
+{background-color: #ffffff;
+	border: 1px solid #3bafbe; 
+color: #3bafbe;
+
+}
+#menu h2
+{margin-top: 30px;
+font-size: 28px;
+color: #4a4a4a;
+font-family: Georgia;}
+#menu p
+{margin-top: 0px!important;
+font-size: 12px;
+color: #999999;
+font-family: Georgia;}
+#menu ul
+{margin-top: 55px;}
+#menu ul li
+{float: left;
+	list-style: none;
+margin-left: 15px;}
+.activ
+{color: #3bafbe!important;}
+#menu ul li a
+{color: #999999;
+font-family: Georgia;	
+font-size: 13px;
+text-decoration: none;}
+#menu ul li a:hover
+{color: #3bafbe;}
+#title
+{clear: both;
+	height: 420px;
+width: 960px;
+padding-right: 20px;
+padding-left: 20px;
+border-bottom: 1px solid #e2e2e2;
+}
+#title img:hover
+{
+transform: scale(1.02);
+}
+#title h3
+{margin-top: 100px;
+font-size: 42px;
+color: #4a4a4a;
+font-family: Gerorgia;		}
+#title p
+{font-size: 16px;
+color: #999999;}
+.b
+{background-color: #3bafbe;
+height: 35px;
+line-height: 15px;
+display: block;
+border-radius: 10px;
+color: #ffffff;
+text-indent: 4px;
+width: 125px;
+padding: 10px 2px;
+}
+.b:hover
+{background-color: #ffffff;
+	border: 1px solid #3bafbe; 
+color: #3bafbe;
+}
+#title ul
+{
+	margin-top: 35px;
+	margin-left: 320px;
+}
+#title ul li
+{list-style: none;
+float: left;}
+#title ul li a
+{
+	width: 20px;
+	height: 20px;
+	display: block;
+margin-left: 2px;
+	border-radius: 30px;
+	background-color:#3bafbe; 
+	transition: 0s;
+}
+#title ul li a:hover
+{border:2px solid #3bafbe;
+background-color: #ffffff;}
+.active
+{border:2px solid #3bafbe;
+background-color: #ffffff!important;}
+#medium h4
+{font-size: 16px;
+	font-family: Georgia;
+	margin-top: 20px;
+	color: #4a4a4a;
+}
+#medium 
+{clear: both;
+	width: 960px;
+	padding: 0 20px;
+	height: 455px;
+border-bottom: 1px solid #e2e2e2;
+}
+
+#medium img:hover
+{transform: scale(1.02);
+}
+#medium p
+{color: #999999;
+font-size:13px}
+.co
+{float: left;
+width:280px;
+margin-right: 25px;}
+.co img
+{width: 290px;}
+#lorem p
+{
+	font-size: 22px;
+	color: #666666;
+	text-align: center;
+	padding: 50px 60px;
+}
+#foot
+{width: 960px;
+padding: 0 20px;}
+#foot p
+{font-size:12px;
+color: #848c92; }
+#foot h4
+{font-size:13px;
+	margin-top: 10px;
+color: #3bafbe;}
+#foot img:hover
+{transform: scale(1.02);
+}
+
+#footer
+{clear: both;
+	height: 220px;
+	width: 960px;
+	padding: 30px 20px;
+background-color: #252525;
+}
+#footer h4
+{color: #ffffff;
+font-size: 20px;}
+#footer p
+{color: #999999;
+font-size: 12px;}
+#footer a
+{color: #3bafbe;
+font-size: 12px;
+display: block;
+padding: 5px 0px;}
+
+#footer input[type="Text"]
+{border-radius: 10px;
+background-color: #2c2c2c;
+border: none;
+margin-top: 10px;}
+
+#footer input[type="Email"]
+{border-radius: 10px;
+background-color: #2c2c2c;
+margin-top: 10px;
+border:none;}
+#footer input[type="Submit"]
+{border-radius: 5px;
+	width: 65px;
+background-color: #3bafbe;
+border: none;
+color: #ffffff;
+font-size: 13px;
+margin-top: 10px;
+height: 25px;}
+#footer input[type="Submit"]:hover
+{border:2px solid #3bafbe;
+background-color: #ffffff;
+color: #3bafbe;}
+
+#past 
+{clear: both;
+	height: 35px;
+	width: 960px;
+	line-height: 35px;
+	margin-left: -15px;
+	padding: 0 20px;
+background-color: #1a1a1a;
+}
+#past p
+{font-size: 12px;
+	color:#999999;
+}

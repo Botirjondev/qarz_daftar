@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Qarz Daftari</title>
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <style>
+    *{
+      padding: 10px;
+    }
+    thead{
+      padding: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <form id="save_user">
+    <input type="text" name="username" id="username" class="input">
+    <input type="text" name="serial_number" id="serial">
+    <button id="save" class="btn btn-primary">Save</button>
+    &nbsp;
+    <hr>
+  </form>
+
+  <table id="users" style="width:100%" class="table">
+    <thead class="table-dark"> 
+      <tr>
+        <th>#ID</th>
+        <th>Name</th> 
+        <th>Serial Number</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody id="users_body">
+
+    </tbody>
+    <!-- <tr>
+      <td>1</td>
+      <td>Smith</td>
+      <td>AAfwefiowefwefew</td>
+    </tr>
+    <tr>
+      <td>Eve</td>
+      <td>Jackson</td>
+      <td>94</td>
+    </tr>
+    <tr>
+      <td>John</td>
+      <td>Doe</td>
+      <td>80</td>
+    </tr> -->
+  </table>
+  <table id="user_debts" style="width:100%; margin-top: 200px;" class="table table-striped">
+    <thead class="table-dark">
+      <tr>
+        <th>#ID</th>
+        <th>User</th> 
+        <th>Quantity</th>
+        <th>Balance</th>
+        <th>Accepted</th>
+        <th>Remainder</th>
+        <th>Date</th>
+      </tr>
+    </thead>
+    <tbody id="debts_body">
+
+    </tbody>
+    <!-- <tr>
+      <td>1</td>
+      <td>Smith</td>
+      <td>AAfwefiowefwefew</td>
+    </tr>
+    <tr>
+      <td>Eve</td>
+      <td>Jackson</td>
+      <td>94</td>
+    </tr>
+    <tr>
+      <td>John</td>
+      <td>Doe</td>
+      <td>80</td>
+    </tr> -->
+  </table>
+  
+  <script src="./app.js"></script>
+</body>
+
+</html>
